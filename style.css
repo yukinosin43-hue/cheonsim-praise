@@ -204,3 +204,6 @@ a{color:inherit;text-decoration:none}
 @media(min-width:780px){.event-photo-album{padding-top:112px;padding-bottom:106px}.event-gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}.event-gallery-tile{aspect-ratio:4/3;border-radius:13px}.event-gallery-tile.event-gallery-featured{grid-column:1/-1;aspect-ratio:21/9;border-radius:19px}.event-gallery-intro{margin-bottom:45px}.event-lightbox-stage{padding:24px 85px 30px}.event-lightbox-prev{left:20px}.event-lightbox-next{right:20px}}
 @media(max-width:480px){.event-photo-album{padding:66px 14px 72px}.event-gallery-tile.event-gallery-featured{aspect-ratio:4/3}.event-gallery-grid{gap:7px}.event-lightbox-stage{padding:8px 47px 23px}.event-lightbox-arrow{width:37px;height:37px}.event-lightbox-prev{left:4px}.event-lightbox-next{right:4px}}
 @media(prefers-reduced-motion:reduce){.event-gallery-tile img{transition:none}}
+
+/* v15 · The legacy photo archive now has two photos. */
+@media(min-width:780px){.history .gallery{grid-template-columns:1.5fr 1fr}}
